@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Log in</h1>
+      <hr />
+      <div class="social-icons">
+        <a href="https://accounts.google.com" target="_blank"><img src="images/google.png"></a>
+        <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png"></a>
+        <a href="https://github.com" target="_blank"><img src="images/git.png"></a>
+        <p>or login using email</p>
+      </div>
+      
+        <form action="">
+        <div class="input_fields">
+          <input type="email" id="email" placeholder="" required />
+          <span></span>
+          <label for="email">Email</label>
+        </div>
+        <div class="input_fields">
+          <input type="password" id="password" required />
+          <span></span>
+          <label for="password">Password</label>
+        </div>
+        <div class="flex">
+            <div class="rem_div">
+                <input type="checkbox" required/><span class="rem">Remember me</span>
+            </div>
+          
+            <a href="#">Forgot Password?</a>
+        </div>
+        <input id="submit" type="submit" value="Submit" />
+        <div class="flex">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Condition</a>
+        </div>
+      </form>
+    </div>
+
+
+    <script src="login.js"></script>
+  </body>
+</html>
